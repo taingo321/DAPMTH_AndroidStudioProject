@@ -16,4 +16,5 @@ public class MainActivity extends AppCompatActivity {
     }
     Button button= mbuton;
     Text text= mtext;
+    Button button2=m2button;
 }
