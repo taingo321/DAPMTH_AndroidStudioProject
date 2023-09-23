@@ -2,6 +2,8 @@ package com.example.dapmnc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import org.w3c.dom.Text;
+
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,4 +15,5 @@ public class MainActivity extends AppCompatActivity {
         
     }
     Button button= mbuton;
+    Text text= mtext;
 }
