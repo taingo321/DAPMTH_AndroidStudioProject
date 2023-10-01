@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Products.adddata"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Tên sản phẩm"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/add_price"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Giá tiền"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/add_ingre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Nguyên liệu"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/add_purl"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Hình sản phẩm"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/add_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:text="Thêm sản phẩm"/>
+
+    <Button
+        android:id="@+id/add_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp"
+        android:text="Hủy"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

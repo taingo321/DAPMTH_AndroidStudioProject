@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Products.descfragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageholder"
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/ic_launcher"
+                tools:ignore="MissingConstraints"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginBottom="600dp"
+                android:background="@drawable/product_detail_background"
+                android:elevation="3dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageholder"
+                app:layout_constraintVertical_bias="0.060000002">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nameholder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="32dp"
+                            android:text="Candidate Name"
+                            android:textSize="32sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="30dp"/>
+
+                        <TextView
+                            android:id="@+id/priceholder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Candidate Course"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="30dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Nguyên liệu: "
+                            android:textSize="25sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="30dp"/>
+
+                        <TextView
+                            android:id="@+id/ingreholder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Candidate Email"
+                            android:textSize="22sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="30dp"/>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageholder"
+            android:layout_width="240dp"
+            android:layout_height="228dp"
+            android:layout_marginTop="40dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/nameholder"
+            android:text="Candidate Name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/courseholder"
+            android:text="Candidate Course"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/emailholder"
+            android:text="Candidate Email"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+    </LinearLayout> -->
+
+</FrameLayout>
