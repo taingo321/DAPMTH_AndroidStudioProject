@@ -1,16 +1,15 @@
-package com.example.testfb4;
+package com.example.testfb4.Staffs;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-import com.example.dapmnc.R;
+import com.example.testfb4.R;
 
-public class SignUp extends AppCompatActivity {
+public class StaffMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.activity_staff_main);
     }
 }
