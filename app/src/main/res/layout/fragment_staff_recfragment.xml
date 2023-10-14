@@ -4,9 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Staffs.staff_recfragment"
-    android:background="@drawable/dot_background">
-
+    android:background="@drawable/dot_background"
+    tools:context=".Staffs.staff_recfragment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="650dp"
@@ -63,6 +62,4 @@
         app:backgroundTint="@color/teal_200"
         app:tint="@android:color/white"
         app:elevation="6dp" />
-
-
 </FrameLayout>
