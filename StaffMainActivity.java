@@ -35,7 +35,7 @@ public class StaffMainActivity extends AppCompatActivity {
         staff_fragment = new recfragment();
         getSupportFragmentManager().beginTransaction().replace(R.id.staffwrapper, staff_fragment).commit();
 
-        recyclerView_Staff = findViewById(R.id.recyclerView_Staff);
+        recyclerView_Staff = findViewById(R.id.recyclerViewStaff);
         recyclerView_Staff.setLayoutManager(new LinearLayoutManager(this));
 
         fbAddStaff = (FloatingActionButton)findViewById(R.id.fbAddStaff);
